@@ -1,0 +1,54 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: salmon;
+  height: 100vh;
+}
+h1 {
+  font-style: oblique;
+  margin-bottom: 10px;
+}
+.container {
+  padding: 20px;
+  background-color: lightpink;
+  width: 500px;
+  margin: 5px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+#input {
+  height: 80px;
+  width: 100%;
+  margin-bottom: 10px;
+  border: 2px solid darkgray;
+  resize: none;
+  outline: none;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+.counter {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+}
+
+.counter p {
+  color: darkgray;
+  font-size: 22px;
+  font-weight: bold;
+  font-style: oblique;
+}
+.total-charachter {
+  color: blue;
+}
+
+.time-reamine {
+  color: red;
+}

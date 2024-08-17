@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  min-height: 100vh;
+}
+.bg-img {
+  position: absolute;
+  background-color: transparent;
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  z-index: -1;
+}
+header {
+  font-size: 60px;
+  color: #fff;
+  font-weight: 500;
+}
+.container p {
+  font-size: 24px;
+  font-weight: 400;
+  color: #fff;
+  max-width: 550px;
+  column-gap: 30px;
+  text-align: center;
+}
+.time-content {
+  display: flex;
+  gap: 30px;
+}
+.time {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.number {
+  font-size: 40px;
+  color: #fff;
+  font-weight: bold;
+}
+.text {
+  font-size: 14px;
+  color: #fff;
+  text-transform: capitalize;
+}
+.email-content {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.input-box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  height: 40px;
+  width: 550px;
+  background-color: transparent;
+}
+.input-box input,
+.input-box button {
+  padding: 10px;
+  border: none;
+}
+.input-box input {
+  border-radius: 3px 0 0 3px;
+  width: 80%;
+  outline: none;
+  background-color: transparent;
+}
+.input-box input::placeholder {
+  color: #fff;
+}
+.input-box input:focus {
+  border: 2px solid #000;
+  border-radius: 3px 0 0 3px;
+}
+.input-box button {
+  background-color: transparent;
+  border-radius: 0 3px 3px 0;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.input-box button:hover {
+  background-color: #000;
+  color: #fff;
+}

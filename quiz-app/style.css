@@ -1,0 +1,74 @@
+body {
+  background-color: #22223b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container {
+  width: 800px;
+  height: 500px;
+  background-color: white;
+  position: relative;
+}
+
+.content {
+  padding: 50px;
+}
+.answers {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.answer label,
+.answer input {
+  font-size: 24px;
+  font-weight: 600;
+  color: rgb(87, 81, 81);
+  cursor: pointer;
+}
+.submit {
+  width: 100%;
+  padding: 10px;
+  background-color: rebeccapurple;
+  color: white;
+  font-size: 24px;
+  position: absolute;
+  bottom: 0;
+  cursor: pointer;
+}
+
+.result {
+  padding: 50px;
+  display: flex;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+}
+.result h1 {
+  font-size: 42px;
+}
+.correct {
+  color: green;
+  font-size: 24px;
+}
+.wrong {
+  color: red;
+  font-size: 24px;
+}
+.score {
+  font-weight: bolder;
+  color: blue;
+  font-size: 24px;
+}
+.play {
+  width: 100px;
+  padding: 7px;
+  border-radius: 5px;
+  background-color: blueviolet;
+  color: white;
+  cursor: pointer;
+  border: none;
+}
